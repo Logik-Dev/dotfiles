@@ -29,3 +29,8 @@ fi
 
 # Enable authselect u2f profile
 sudo authselect select sssd with-pam-u2f
+
+# Add SSH keys from Yubikey
+mkdir -p $HOME/.ssh
+cd $HOME/.ssh
+ssh-keygen -K

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install packages
-sudo dnf install neovim alacritty zsh ansible util-linux-user rbw nodejs-npm powerline-fonts
+sudo dnf install neovim alacritty zsh ansible util-linux-user rbw nodejs-npm powerline-fonts openssh-askpass 
 sudo dnf group install "C Development Tools and Libraries" "Development Tools"
 
 # Install Alacritty themes
